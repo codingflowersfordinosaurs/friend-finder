@@ -10,14 +10,13 @@ router.use(function timeDate(req, res, next) {
   next();
 });
 
-// SURVEY ROUTE
-router.get('/survey', (req,res) => {
-  res.sendFile(path.join(__dirname, "../public/survey.html"));
-});
-
 // HOME PAGE ROUTE
 router.get('/', (req,res) => {
-  res.sendFile(path.join(__dirname, "../public/home.html"));
+  res.sendFile(path.join(__dirname, "./../public/home.html")); // /app/public/home.html
+});
+// SURVEY ROUTE
+router.get('/survey.html', (req,res) => {
+  res.sendFile(path.join(__dirname, "./../public/survey.html")); // /app/public/survey.html
 });
 
 module.exports = router;

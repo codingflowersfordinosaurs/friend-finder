@@ -30,3 +30,5 @@ let friendList = [
     scores: [2, 3, 2, 5, 3, 4, 1, 1, 4, 3]
   },
 ];
+
+module.exports = friendList;

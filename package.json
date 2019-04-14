@@ -1,0 +1,26 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "- A full-stack site that will take in results from the users' surveys, then compare their answers with those from other users - The app will then display the name and picture of the user with the best overall match ## How will the routing work? - Express will handle routing - Then the app will be deployed to Heroku so other users can fill it out ## Instructions - Survey will have 10 questions   - each answer will be on a scale of 1 to 5 based on how uch the user agrees or disagrees with a question",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingflowersfordinosaurs/friend-finder.git"
+  },
+  "author": "Caitlyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingflowersfordinosaurs/friend-finder/issues"
+  },
+  "homepage": "https://github.com/codingflowersfordinosaurs/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "router": "^1.3.3"
+  }
+}
