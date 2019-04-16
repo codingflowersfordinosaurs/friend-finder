@@ -30,7 +30,7 @@ router.post("/api/friends", (req,res) => {
       }
     );
   }
-  let highScore = 50;// got this from 5 pt w/10 numbers 
+  let highScore = 50;// got this from 5 pt w/10 numbers; because total score can't be more than this
   friendMath.map((obj) => {
     if (obj.difference < highScore) {
       highScore = obj.difference;

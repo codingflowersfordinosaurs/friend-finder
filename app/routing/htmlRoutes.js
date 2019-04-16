@@ -15,7 +15,7 @@ router.get('/', (req,res) => {
   res.sendFile(path.join(__dirname, "./../public/home.html")); // /app/public/home.html
 });
 // SURVEY ROUTE
-router.get('/survey.html', (req,res) => {
+router.get('/survey.html', (req,res) => { // routing to survey.html
   res.sendFile(path.join(__dirname, "./../public/survey.html")); // /app/public/survey.html
 });
 
