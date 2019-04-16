@@ -9,4 +9,4 @@
 - Then the app will be deployed to Heroku so other users can fill it out
 ## Instructions
 - Survey will have 10 questions
-  - each answer will be on a scale of 1 to 5 based on how uch the user agrees or disagrees with a question
+  - each answer will be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question
